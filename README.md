@@ -5,7 +5,7 @@
 
 2. Add code scripts in Extensões -> Apps Scripts and add function code:
    
-`
+``
 function clearCheckboxes() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var range = sheet.getRange('F1:I150'); // Adjust the range as per your requirement
@@ -38,6 +38,6 @@ function onEdit(e) {
     }
   }
 }
-`
+``
 
 3 . Link LIMPAR buttons to fucntion clearCheckboxes
